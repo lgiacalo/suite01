@@ -11,17 +11,6 @@
 
 //  écrire votre code sous ce commentaire
 
-const isPropertyOf = (_arr, _obj) => {
-  let res = true;
-  for (let i = 0; i < _arr.length; i++) {
-    const _str = _arr[i];
-    if (!_obj.hasOwnProperty(_str)) {
-      res = false;
-    }
-  }
-  return res;
-}
-
 /*
   Test 1
   Résultat attendu : true
