@@ -43,19 +43,13 @@ xdescribe("Objects", () => {
       expect(v1.hasOwnProperty('nbKilometers')).toBeTruthy();
     });
 
-    it('should have method "displayTravel"', () => {
-      expect(v1.displayTravel).toBeDefined();
-    });
-
-    it('should have method "travel"', () => {
-      expect(v1.travel).toBeDefined();
-    });
-
     it('should display the travel', () => {
+      expect(v1.displayTravel).toBeDefined();
       expect(v1.displayTravel()).toEqual("5 voyageurs participent au voyage à destination de Paris à bord de : Moto");
     });
 
     it('should add kilometers', () => {
+      expect(v1.travel).toBeDefined();
       v1.travel(20);
       expect(v1.nbKilometers).toEqual(20);
     });
