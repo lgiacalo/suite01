@@ -101,7 +101,7 @@ describe("Basics", () => {
   });
 
   /* Test Exercice 9 */
-  describe('Basics - Exo 2', () => {
+  describe('Basics - Exo 9', () => {
     it('should return 10', () => {
       expect(exo9.boostedEvenAddition([4, 5, 6])).toEqual(10);
     });

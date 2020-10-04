@@ -13,8 +13,16 @@
 
 //  écrire votre code sous ce commentaire
 function shoppingList(arr){
+  const ret = {};
   
+  arr.forEach(ar  => {
+    ar.forEach(elm => {
+      ret[elm] = 1 + (ret[elm] ? ret[elm] : 0);
+    })
+  });
+  return ret;
 }
+
 /*
   Test 1
   Résultat attendu : {

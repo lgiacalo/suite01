@@ -14,8 +14,13 @@
 */
 
 //  écrire votre code sous ce commentaire
+
+function isEven(n){
+  return (n & 1) ? 0 : 1;
+}
+
 function isAllEven(arr){
-  
+  return arr.some(n => !isEven(n)) ? 0 : 1;
 }
 /*
   Test 1

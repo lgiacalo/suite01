@@ -9,7 +9,7 @@
 
 //  écrire votre code sous ce commentaire
 function isEven(n){
-
+  return (n & 1) ? 0 : 1;
 }
 
 /*

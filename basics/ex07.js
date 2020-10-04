@@ -7,7 +7,7 @@
 
 //  écrire votre code sous ce commentaire
 function boostedAddition(arr){
-  
+  return arr.reduce((acc, n) => acc + n, 0);
 }
 /*
   Test 1

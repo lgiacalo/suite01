@@ -9,7 +9,7 @@
 
 //  écrire votre code sous ce commentaire
 function isEvenConcat(n){
-  
+  return `${n} est ${(n & 1) ? "impair" : "pair"}`;
 }
 /*
   Test 1

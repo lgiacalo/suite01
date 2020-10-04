@@ -7,7 +7,7 @@
 
 //  écrire votre code sous ce commentaire
 function boostedEvenAddition(arr){
-  
+  return arr.reduce((acc, n) => acc + (n & 1 ? 0 : n), 0);
 }
 /*
   Test 1
