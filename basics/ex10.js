@@ -12,7 +12,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function shoppingList(arr){
+  
+}
 /*
   Test 1
   Résultat attendu : {

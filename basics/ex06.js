@@ -11,7 +11,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function getHumanTypeByAge(n){
+  
+}
 /*
   Test 1
   Résultat attendu : "impossible... ou encore jamais vu"

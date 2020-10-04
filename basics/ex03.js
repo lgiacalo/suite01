@@ -12,6 +12,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function addition(a, b){
+  
+}
 
 /*
   Test 1

@@ -8,7 +8,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function isEvenConcat(n){
+  
+}
 /*
   Test 1
   Résultat attendu : "6 est pair"

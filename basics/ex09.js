@@ -6,7 +6,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function boostedEvenAddition(arr){
+  
+}
 /*
   Test 1
   Résultat attendu : 10

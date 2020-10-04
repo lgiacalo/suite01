@@ -6,7 +6,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function boostedAddition(arr){
+  
+}
 /*
   Test 1
   Résultat attendu : 15

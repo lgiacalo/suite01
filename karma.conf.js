@@ -12,7 +12,15 @@ module.exports = function(config) {
       'tests/**/*.spec.js': ['browserify']
     },
     files: [files],
-    reporters: ["spec"],
+    // reporters: ["spec"],
+    reporters: ['progress', 'kjhtml'],
+    client: {
+      clearContext: false,// leave Jasmine Spec Runner output visible in browser
+      jasmine: {
+        random: false
+      }
+    },
+    
     specReporter: {
       suppressErrorSummary: true, // do not print error summary
       suppressFailed: false, // do not print information about failed tests
@@ -21,6 +29,7 @@ module.exports = function(config) {
       showSpecTiming: false, // print the time elapsed for each spec
       failFast: false // test would finish with error when a first fail occurs. 
     },
+    singleRun: false,
     webpack: {
       module: {
         loaders: [{

@@ -14,7 +14,9 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+function isAllEven(arr){
+  
+}
 /*
   Test 1
   Résultat attendu : 0
