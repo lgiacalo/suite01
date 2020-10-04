@@ -11,6 +11,22 @@
 */
 
 //  écrire votre code sous ce commentaire
+function splitStr(str, sep){
+  const ret = [];
+  let s = "";
+  
+  for (let i = 0; i < str.length; i++){
+    if (str[i] === sep){
+      ret.push(s);
+      s = ""
+    }
+    else
+      s += str[i];
+  }
+  ret.push(s);
+  return ret;
+
+}
 
 /*
   Test 1

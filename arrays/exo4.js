@@ -11,6 +11,12 @@
 */
 
 //  écrire votre code sous ce commentaire
+function searchOcc(arr, occ){
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] === occ) return i;
+  }
+  return (-1);
+}
 
 /*
   Test 1

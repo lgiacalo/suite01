@@ -8,6 +8,10 @@
 */
 
 //  écrire votre code sous ce commentaire
+function editArrayAt(arr, pos, val){
+  if (pos < arr.length)
+    arr[pos] = val;
+}
 
 /*
   Test 1

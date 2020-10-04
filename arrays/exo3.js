@@ -8,6 +8,11 @@
 */
 
 //  écrire votre code sous ce commentaire
+function editStringAt(str, pos, c){
+  return str.split("").reduce((acc, char, i) => {
+    return acc + (i != pos ? char : c);
+  }, "");
+}
 
 /*
   Test 1

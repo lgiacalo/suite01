@@ -11,6 +11,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function getCharAt(str, ind){
+  return ind >= str.length ? "" : str[ind]
+}
 
 /*
   Test 1

@@ -9,6 +9,15 @@
 */
 
 //  écrire votre code sous ce commentaire
+function sortNumbers(arr){
+  const ret = [];
+  while (arr.length){
+    let min = Math.min(...arr);
+    ret.push(min);
+    arr = arr.filter(a => a !== min);
+  }
+  return ret;
+}
 
 /*
   Test 1
