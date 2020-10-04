@@ -10,6 +10,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function countTotalTimeSpent(arr){
+  return arr.reduce((acc, obj) => acc + obj.time, 0);
+}
 
 /*
   Test 1

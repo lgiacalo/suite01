@@ -10,6 +10,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function filterEvenNumbers(arr){
+  return arr.filter(elm => !(elm & 1));
+}
 
 /*
   Test 1

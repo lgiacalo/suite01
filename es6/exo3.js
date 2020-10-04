@@ -10,6 +10,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function findYellowFruit(arr){
+  return arr.find(obj => obj.color === 'jaune')?.name ?? "";
+}
 
 /*
   Test 1

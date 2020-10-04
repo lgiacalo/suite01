@@ -10,6 +10,10 @@
 */
 
 //  écrire votre code sous ce commentaire
+const sortMyWords = (arr) => {
+  return arr.sort((a, b) => a.order - b.order)
+    .reduce((acc, obj) => acc + (acc != "" ? " " : "") + obj.word, "");
+}
 
 /*
   Test 1

@@ -10,6 +10,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function getTwoLastItems(str, pattern){
+  return str.split(pattern).slice(-2);
+}
 
 /*
   Test 1

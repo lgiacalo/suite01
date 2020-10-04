@@ -9,6 +9,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+const verifyHumans = (arr) => {
+  return arr.every(obj => obj.size >= '1m60');
+}
 
 /*
   Test 1

@@ -10,6 +10,11 @@
 */
 
 //  écrire votre code sous ce commentaire
+const getAllLastnames = (arr) => {
+  return arr.map(obj => {
+    return obj.name ? obj.name : "";
+  })
+}
 
 /*
   Test 1

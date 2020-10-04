@@ -11,6 +11,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+const checkVehicles = (arr, val) => {
+  return arr.includes(val);
+}
 
 /*
   Test 1
