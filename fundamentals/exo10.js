@@ -12,7 +12,7 @@
 
 //  écrire votre code sous ce commentaire
 function returnElt(arr, pos) {
-
+  return arr[pos];
 }
 
 

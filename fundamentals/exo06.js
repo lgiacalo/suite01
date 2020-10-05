@@ -17,7 +17,7 @@ function addThree(number) {
   Résultat attendu : 13
 */
 //  écrire votre code sous ce commentaire
-
+addThree(10);
 
 
 /*
@@ -25,7 +25,7 @@ function addThree(number) {
   Résultat attendu : 57
 */
 //  écrire votre code sous ce commentaire
-
+addThree(54);
 
 
 

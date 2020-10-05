@@ -12,7 +12,9 @@
 
 //  écrire votre code sous ce commentaire
 function repeatTenTimes(arg) {
-    
+    for (let i = 0; i < 10; i++){
+      console.log(arg);
+    }
 }
 
 /*

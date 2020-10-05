@@ -17,6 +17,8 @@ function returnArray() {
     const uiDesigner = 'Mark Johns';
     const frontDev = 'Mika Kelt';
     const backDev = 'Maria Hellins';
+
+    return [projectManager, uxDesigner, uiDesigner, frontDev, backDev];
 }
 
 

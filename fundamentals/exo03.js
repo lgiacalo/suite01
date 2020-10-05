@@ -14,19 +14,23 @@ const nb2 = 3;
 let result = 0;
 
 //  écrire votre addition sous ce commentaire
-
+result = nb1 + nb2;
 console.log(result);
 //  écrire votre soustraction sous ce commentaire
 
+result = nb1 - nb2;
 console.log(result);
 //  écrire votre multiplication sous ce commentaire
 
+result = nb1 * nb2;
 console.log(result);
 //  écrire votre division sous ce commentaire
 
+result = nb1 / nb2;
 console.log(result);
 //  écrire votre modulo sous ce commentaire
 
+result = nb1 % nb2;
 console.log(result);
 
 

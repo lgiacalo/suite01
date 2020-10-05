@@ -10,7 +10,13 @@
 
 //  écrire votre code sous ce commentaire
 
+const age = 12;
+const name = "elna";
+const isAGeek = false;
 
+console.log('age :>> ', age);
+console.log('name :>> ', name);
+console.log('isAGeek :>> ', isAGeek);
 
 /*
   Pour tester ce code, aller sur https://jsbin.com/?js,console

@@ -11,6 +11,13 @@ let pseudo = 'unknown';
 let isLevelMax = false;
 //  écrire votre code sous ce commentaire
 
+level = 2;
+pseudo = "linley";
+isLevelMax = true;
+
+console.log('level :>> ', level);
+console.log('pseudo :>> ', pseudo);
+console.log('isLevelMax :>> ', isLevelMax);
 
 
 /*
